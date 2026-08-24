@@ -4,10 +4,7 @@ An analytical framework, machine learning workload predictor, and dynamic resour
 
 This repository implements, evaluates, and compares standalone **Deep Reinforcement Learning (DRL)**, **traditional scheduling heuristics**, and **metaheuristic optimization algorithms** to allocate workloads efficiently.
 
-This work is based on the research paper published in the **15th International Conference on Computing Communication and Networking Technologies (ICCCNT 2024, IEEE)**:
-*   **Title**: *Improvising energy efficiency of heterogeneous servers using AWS services and Machine Learning approaches*
-*   **Authors**: P Praneeth Reddy, P Sai Shruthi, P Tharneesh, Dr. Beena B.M
-*   **DOI**: [10.1109/ICCCNT61001.2024.10724212](https://doi.org/10.1109/ICCCNT61001.2024.10724212)
+This repository contains the official implementation of the research project and paper published in the **15th International Conference on Computing Communication and Networking Technologies (ICCCNT 2024, IEEE)**.
 
 ---
 
@@ -133,3 +130,14 @@ docker build -t energy-efficient-scheduler .
 docker run -p 5000:5000 energy-efficient-scheduler
 ```
 *Deploy the Docker container onto an AWS EC2 Free Tier instance (Ubuntu) to start real-time workload routing.*
+
+---
+
+## 📄 Publication & Citation
+
+If you use this work or refer to it, please cite our research paper:
+
+*   **Title**: *Improvising energy efficiency of heterogeneous servers using AWS services and Machine Learning approaches*
+*   **Authors**: P Praneeth Reddy, P Sai Shruthi, P Tharneesh, Dr. Beena B.M
+*   **Conference**: 15th ICCCNT 2024 (IIT Mandi, India)
+*   **DOI**: [10.1109/ICCCNT61001.2024.10724212](https://doi.org/10.1109/ICCCNT61001.2024.10724212)
